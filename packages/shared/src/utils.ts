@@ -1,3 +1,5 @@
 export function generateId(): string {
-  return Math.random().toString(36).substring(2, 10);
+  const id = Math.random().toString(36).substring(2, 6); // ← 改成 4 位
+  console.log("生成 ID:", id); // ← 加日志
+  return id;
 }

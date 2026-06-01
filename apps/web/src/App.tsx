@@ -28,7 +28,7 @@ export default function App() {
       <div style={{ marginTop: 16 }}>
         {users.map((u) => (
           <Card key={u.id} title={u.name}>
-            <p style={{ color: "#666" }}>{u.email}</p>
+            <p style={{ color: "#666777" }}>{u.email}</p>
           </Card>
         ))}
       </div>
