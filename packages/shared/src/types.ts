@@ -4,6 +4,11 @@ export interface User {
   email: string;
 }
 
+export interface CreateUserInput {
+  name: string;
+  email: string;
+}
+
 export interface ApiResponse<T> {
   success: boolean;
   message: string;
