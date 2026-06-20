@@ -9,7 +9,7 @@
     "demo": "turbo run dev --filter='@repo/demo-*'"
   },
   "devDependencies": {
-    "turbo": "^2.9.16",
+    "turbo": "^2.9.18",
     "typescript": "^5.5.0"
   },
   "packageManager": "pnpm@11.8.0"
