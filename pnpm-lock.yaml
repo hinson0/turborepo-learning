@@ -52,6 +52,12 @@ importers:
         specifier: ^5.5.0
         version: 5.9.3
 
+  apps/demo-a: {}
+
+  apps/demo-b: {}
+
+  apps/demo-c: {}
+
   apps/web:
     dependencies:
       '@repo/shared':
