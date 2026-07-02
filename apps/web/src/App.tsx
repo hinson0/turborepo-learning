@@ -27,6 +27,7 @@ export default function App() {
   const [users, setUsers] = useState<User[]>([]);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [count, setCount] = useState(0);
 
   const refresh = () => fetchUsers().then(setUsers);
 
@@ -48,6 +49,12 @@ export default function App() {
       style={{ maxWidth: 600, margin: "40px auto", fontFamily: "sans-serif" }}
     >
       <h1>🏗️ Turborepo + Hono + SQLite</h1>
+      <button onClick={() => setCount(count + 1)}>🔢 点了 {count} 次</button>
+      <details>
+        <summary>
+          <b>卡住了?一种写法</b>
+        </summary>
+      </details>
 
       {/* 新增表单 */}
       <form onSubmit={handleSubmit} style={formStyle}>
