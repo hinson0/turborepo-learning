@@ -48,7 +48,7 @@ export default function App() {
     <main
       style={{ maxWidth: 600, margin: "40px auto", fontFamily: "sans-serif" }}
     >
-      <h1>🏗️ Turborepo + Hono + SQLite</h1>
+      <h1>🏗️ Turborepo + Hono + SQLite [learning...]</h1>
       <button onClick={() => setCount(count + 1)}>🔢 点了 {count} 次</button>
       <details>
         <summary>
