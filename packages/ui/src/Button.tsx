@@ -14,7 +14,7 @@ export function Button({ label, onClick }: Props) {
 const btnStyle: React.CSSProperties = {
   padding: "8px 16px",
   cursor: "pointer",
-  background: "#1890ff", // ← 改成蓝色
+  background: "orange", // ← 改成蓝色
   color: "#dddfff", // ← 白字
   border: "none",
   borderRadius: "4px",
