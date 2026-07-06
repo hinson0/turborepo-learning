@@ -58,6 +58,8 @@ importers:
 
   apps/demo-c: {}
 
+  apps/demo-d: {}
+
   apps/web:
     dependencies:
       '@repo/shared':
