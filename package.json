@@ -6,10 +6,13 @@
     "dev": "turbo run lint dev",
     "lint": "turbo run lint",
     "test": "turbo run test",
+    "tsx": "cd packages/scripts && tsx",
     "demo": "turbo run dev --filter=@repo/demo-*",
+    "web": "turbo run dev --filter=@repo/web",
     "dev1": "turbo run dev --filter=@repo/web --filter=@repo/api"
   },
   "devDependencies": {
+    "tsx": "^4.23.0",
     "turbo": "^2.9.18",
     "typescript": "^5.5.0"
   },

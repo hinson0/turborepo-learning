@@ -14,5 +14,5 @@ function myLogger() {
 }
 
 export default defineConfig({
-  plugins: [react(), myLogger()],
+  plugins: [react()],
 });
